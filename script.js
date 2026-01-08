@@ -24,7 +24,6 @@ addBtn.addEventListener("click", () => {
 
 minusBtn.addEventListener("click", () => {
   let inputVal = parseInt(input.value);
-
   let currentVal = parseInt(output.innerText);
 
   if (currentVal <= 0 || (inputVal && currentVal - inputVal < 0)) {
